@@ -1,0 +1,40 @@
+/* j'ai mis tout mes paragraphe en couleur rouge */
+p {
+    color: red;
+    text-align: center;
+}
+
+/*JE METTRE TOUT MES TITRE DE NIVEAU 1 EN COULEUR*/
+h1{
+    color: brown;
+}
+
+/*je mis ma liste de couleur marron chocolat*/
+h2 {
+  color:chocolate;
+}
+/*j'ai mis ma liste non ordonnée en couleur marron*/
+ul{
+    color:brown;
+}
+/*j'ai mis liste ordonnée en couleur orange*/
+ol{
+    color:coral;
+}
+/*j'ai mis mon lien hypertexte en couleur orange*/
+a{
+    color:darkorange;
+}
+/*j'ai mis mon titre de niveau 3 en couleur rose*/
+h3{
+    color:lightpink;
+}
+/*j'ai mis le titre de mon onglet en couleur bleu*/
+title{
+    color:blue;
+}
+
+.rsma {
+    color:blue
+}
+
