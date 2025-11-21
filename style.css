@@ -2,39 +2,59 @@
 p {
     color: red;
     text-align: center;
+    font-family: sofia;
 }
 
 /*JE METTRE TOUT MES TITRE DE NIVEAU 1 EN COULEUR*/
 h1{
     color: brown;
+    font-weight:bold;
 }
 
-/*je mis ma liste de couleur marron chocolat*/
+/*je mais dans ma liste de couleur marron chocolat*/
 h2 {
   color:chocolate;
+  text-decoration:underline;
 }
+
 /*j'ai mis ma liste non ordonnée en couleur marron*/
 ul{
     color:brown;
+    font-style:italic;
 }
+
 /*j'ai mis liste ordonnée en couleur orange*/
 ol{
     color:coral;
+    text-align:center;
 }
+
 /*j'ai mis mon lien hypertexte en couleur orange*/
 a{
     color:darkorange;
+    text-align:right;
 }
+
+
 /*j'ai mis mon titre de niveau 3 en couleur rose*/
 h3{
     color:lightpink;
+
 }
 /*j'ai mis le titre de mon onglet en couleur bleu*/
 title{
     color:blue;
 }
 
-.rsma {
+.rsma { 
+
+    font-size: 15px;
+    
     color:blue
+}
+   
+body{
+   font-family: 'Dancing Script',sans-serif;
+
 }
 
