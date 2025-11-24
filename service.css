@@ -1,0 +1,25 @@
+ /*ici,je rédige la feuille de style pour mettre en forme le fichier service.html*/
+div{
+    color:red;
+    /* le code l'arrière-plan de la plage*/
+    background-color:aqua;
+    border-style:solid;
+    
+}
+
+#divsolid{
+    border:solid;
+}
+
+#divdouble{
+    border:double;
+
+}
+
+#divdotted{
+    border:dotted;
+}
+
+#divdashed{
+    border:dashed;
+}
