@@ -6,20 +6,25 @@ div{
     border-style:solid;
     
 }
-
+/*Bordure simple(solide)*/
 #divsolid{
+    border-radius: 20px 25px 40px 45px;
     border:solid;
+ 
 }
 
 #divdouble{
+    border-radius: 10px 15px 60px 80px;
     border:double;
 
 }
 
 #divdotted{
+    border-radius: 40px 50px 60px 70px;
     border:dotted;
 }
 
 #divdashed{
+    border-radius: 10px 50px 80px 70px;
     border:dashed;
 }
