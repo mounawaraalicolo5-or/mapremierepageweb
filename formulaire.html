@@ -1,15 +1,99 @@
+<!-- je créé un formulaire d'inscription-->
 <!DOCTYPE html>
 
 
 <html>
     <head>
-
         <meta charset="utf-8">
-        <title></title>
+        <title>Formulaire d'inscription</title>
+        <!--ce code permetd'ajouter un fichier css-->
+        <link rel="stylesheet" href="formulaire.css"> 
+
 
    </head>
 
    <body>
+        <!--je rédige la structure du formulaire d'inscription-->
+        <form> <!--début du formulaire-->
+            <div>
+               <label for="prenom">prénom(s):</label>
+               <input type="text" name="prenom">
+        
+                <label for="nom">nom</label>
+                <input type="text" name="nom">
+            </div>
+            <br>
+            <div>
+                <label for="village">village</label>
+                <input type="text" name="village">
+                
+
+                <label for="date de naissance">date de naissance</label>
+                <input type="date" name="date de naissance">
+            </div>
+            <br>
+            <div>
+                <label>Genre:</label>
+                <input type="radio" name="femme" id="femme">
+                <label for="femme">F:</label>
+                
+                <input type="radio" name="homme" id="homme">
+                <label for="homme">M</label>
+                
+            </div> 
+            <br><br>
+
+            <div> 
+                <label>disciplines:</label>
+                
+                <label for="mathematique">mathematique</label>
+                <input type="checkbox" name="mathematique" id="mathematique">
+                
+            
+
+                <label for="discipline">discipline</label>
+                <input type="checkbox" name="discipline" id="discipline">
+                
+
+
+            <label for="histoire geographique">histoire</label> 
+            <input type="checkbox" name="histoiregéographique" id="histoire">
+            
+
+            <label for="eps">EPS</label>
+            <input type="checkbox"name="eps" id="eps">
+
+            
+
+            
+
+            
+             
+
+
+
+
+            </div>
+            
+            <br><br>
+
+            <div>
+                <label for="email">Email:</label>
+            <input type="email"name="email">
+            
+
+            </div>
+            <br><br>
+            
+            <div>
+                <input type="submit">
+
+            </div>
+            
+             
+             
+
+         </form><!--Fin du formulaire-->
 
    </body>
 
