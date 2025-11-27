@@ -16,5 +16,18 @@
         <nav>
             <ul>
                 <li><a href="">Modex>/Modex</a></li>
-                <li> <a href="">Rae</
+                <li> <a href="">Rae</a></li>
+                <li><a href="">Aad</a></li>
+            </ul>
+        </nav>
+        <!--je presente l'article-->
+        <article>
+            <h2>Modex<h2>
+                <p></p>
+            </article>
+
+    </section>
+</body>
+
+</html>
 

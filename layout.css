@@ -1,0 +1,55 @@
+*{
+  box-sizing: border-box;
+
+}
+/*mise en forme pour l'en-tete*/
+header{
+    background-color:#666 ;
+    /*l'arrière plan est colorié en gris*/
+    padding:25px;
+    /*ajoute une marque interieur de 25px*/
+    text-align: center;
+    /*centre le texte a l'interieure de l'element*/
+    color:white;
+    /*mettre le texte en couleur blanc */
+    font-size: 35px;/*agrandir la taille du texte*/
+
+}
+
+/*mise en forme de la section. en utilisant la notion de */
+section{
+    /*optimise l'affichage sur differentes tailles d'écran*/
+    display: -webkit-flex;
+    display: flex;
+}
+
+/*mis en forme de la bare*/
+nav{
+   -webkit-box-flex: 1;
+   -ms-flex: 1;
+   background:#ccc ;
+   padding: 20px;
+}
+/*mis en forme de la liste ul de la balise <nav>*/
+nav ul {
+    /*je retire le puce de la liste*/
+      list-style-type: none;
+      padding: 0;
+}
+
+/*mis en forme de la vue article <article> */
+article {
+     -webkit-flex: 3;
+     -ms-flex: 3;
+     flex: 3;
+     background-color: #f1f1f1;
+     padding: 10px;
+    
+}
+/*mis en forme de */
+footer{
+    text-align: center;
+    background-color: #777;
+    color:white;
+    padding: 10px;
+}
