@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>layout</title>
+</head>
+
+<body>
+    <!--je suis a-->
+    <header>
+        <h2> Le RSMA Mayotte</h2>
+    </header>
+    <!--Ma section-->
+    <section>
+        <!--barre navigation-->
+        <nav>
+            <ul>
+                <li><a href="">Modex>/Modex</a></li>
+                <li> <a href="">Rae</
+
